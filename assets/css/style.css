@@ -6,7 +6,11 @@
     font-size: 98%;
 }
 .header{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
 }
 .header-endow{
     overflow: hidden;
@@ -15,7 +19,6 @@
     background-color: #0000ff;
     text-align: center;
     margin-bottom: 20px;
-    
 }
 .header-endow-p{
     animation: animationEndow 22s linear infinite;
@@ -149,6 +152,7 @@
     font-weight: 600;
 }
 .body{
+    padding-top: 187px;
     background-color: #f2f3f5;
 }
 .body-image-background{
@@ -361,8 +365,8 @@
 
 .new-products-item .item-box>img{
     width: 198px;
-    height: 198pxw;
-    object-fit: cover;
+    height: 198px;
+    object-fit: fill;
 }
 .item-box .text-decoretion{
     text-decoration: line-through;
