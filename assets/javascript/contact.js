@@ -1,97 +1,78 @@
-document.addEventListener('DOMContentLoaded', function(){
-  // Lấy product info từ phần preview
-  const imgEl = document.getElementById('productImagePreview');
-  const nameEl = document.getElementById('productNamePreview');
-  const priceEl = document.getElementById('productPricePreview');
+document.addEventListener('DOMContentLoaded', function () {
+    const params = new URLSearchParams(window.location.search);
+    const productId = params.get('id'); // Chỉ cần id là đủ!
 
-  const productImage = imgEl ? imgEl.src : '';
-  const productName = nameEl ? nameEl.innerText.trim() : '';
-  const productPrice = priceEl ? priceEl.innerText.replace(/[^\d.,]/g,'').trim() : '';
-
-  // Gán vào hidden inputs (sẽ gửi kèm)
-  document.getElementById('productImage').value = productImage;
-  document.getElementById('productName').value = productName;
-  document.getElementById('productPrice').value = productPrice;
-
-  const form = document.getElementById('contactForm');
-  const submitBtn = document.getElementById('submitBtn');
-  const successBox = document.getElementById('msg-success');
-  const errorBox = document.getElementById('msg-error');
-
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-
-    // Honeypot check (nếu bot điền thì chặn)
-    if (document.getElementById('botcheck').value) {
-      return;
+    // === 1. Cập nhật link "Sản phẩm" quay lại đúng sản phẩm cũ ===
+    const backLink = document.getElementById('backToProduct');
+    if (productId) {
+        backLink.href = `product.html?id=${productId}`;
+        backLink.textContent = "Sản Phẩm /";
+    } else {
+        backLink.href = "index.html";
+        backLink.textContent = "Trang Chủ /";
     }
 
-    submitBtn.classList.add('btn-disabled');
-    submitBtn.disabled = true;
-    errorBox.style.display = 'none';
-    successBox.style.display = 'none';
+    // === 2. Nếu có ID → fetch lại sản phẩm từ JSON để hiển thị chính xác ===
+    if (productId) {
+        fetch("./assets/data/product.json")
+            .then(res => res.json())
+            .then(products => {
+                const product = products.find(p => p.id == productId);
+                if (product) {
+                    document.getElementById('productImagePreview').src = product.image;
+                    document.getElementById('productNamePreview').textContent = product.name;
+                    document.getElementById('productPricePreview').textContent = 'Giá: ' + product.newPrice;
 
-    // Lấy tất cả form data
-    const formData = new FormData(form);
+                    // Đưa vào hidden inputs để gửi email
+                    document.getElementById('productName').value = product.name;
+                    document.getElementById('productPrice').value = product.newPrice;
+                    document.getElementById('productImage').value = product.image;
+                }
+            })
+            .catch(err => console.error("Lỗi load sản phẩm ở contact:", err));
+    }
 
-    // Bạn có thể thêm/ghi đè trường ở đây nếu muốn
-    // formData.set('product_name', productName);
+    // === 3. XỬ LÝ FORM GỬI EMAIL (giữ nguyên như cũ của bạn, siêu ổn định) ===
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const successBox = document.getElementById('msg-success');
+    const errorBox = document.getElementById('msg-error');
 
-    // Gửi POST tới Web3Forms endpoint
-    fetch(form.action, {
-      method: 'POST',
-      body: formData,
-      redirect: 'follow'
-    })
-    .then(res => res.json())
-    .then(data => {
-      if (data.success) {
-        successBox.style.display = 'block';
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Chống bot
+        if (document.getElementById('botcheck').value) return;
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Đang gửi...";
+        successBox.style.display = 'none';
         errorBox.style.display = 'none';
-        form.reset();
 
-        // Giữ lại thông tin product trong preview (nếu muốn)
-        document.getElementById('productImage').value = productImage;
-        document.getElementById('productName').value = productName;
-        document.getElementById('productPrice').value = productPrice;
+        const formData = new FormData(form);
 
-        // Option: redirect sau 2s
-        // setTimeout(()=> window.location.href = '/thankyou.html', 2000);
-      } else {
-        // Hiện lỗi Web3Forms trả về
-        errorBox.innerText = data.message || 'Có lỗi xảy ra, vui lòng thử lại.';
-        errorBox.style.display = 'block';
-      }
-    })
-    .catch(err => {
-      errorBox.innerText = 'Lỗi mạng hoặc server. Vui lòng kiểm tra kết nối.';
-      errorBox.style.display = 'block';
-      console.error(err);
-    })
-    .finally(() => {
-      submitBtn.classList.remove('btn-disabled');
-      submitBtn.disabled = false;
+        fetch("https://api.web3forms.com/submit", {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data.success) {
+                successBox.innerHTML = "Gửi thành công! Chúng tôi sẽ liên hệ với bạn sớm nhất!";
+                successBox.style.display = 'block';
+                form.reset();
+            } else {
+                errorBox.innerHTML = data.message || "Có lỗi xảy ra!";
+                errorBox.style.display = 'block';
+            }
+        })
+        .catch(err => {
+            errorBox.innerHTML = "Lỗi kết nối, vui lòng thử lại!";
+            errorBox.style.display = 'block';
+        })
+        .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Gửi tin nhắn";
+        });
     });
-  });
 });
-// Lấy params
-const params = new URLSearchParams(window.location.search);
-
-const name  = params.get("name");
-const price = params.get("price");
-const image = params.get("image");
-
-// Chèn vào giao diện
-if(name)  document.getElementById("productNamePreview").textContent = name;
-if(price) document.getElementById("productPricePreview").textContent = "Giá: " + price;
-if(image) document.getElementById("productImagePreview").src = image;
-
-// Gán vào hidden inputs của form (để gửi email)
-document.getElementById("productName").value  = name || "";
-document.getElementById("productPrice").value = price || "";
-document.getElementById("productImage").value = image || "";
-// Lấy toàn bộ params hiện tại
-const paramss = window.location.search;
-
-// Tạo lại link đầy đủ quay về product.html
-document.getElementById("backToProduct").href = "product.html" + paramss;

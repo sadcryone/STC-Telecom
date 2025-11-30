@@ -1,23 +1,71 @@
-const params = new URLSearchParams(window.location.search);
+document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id');
 
-// Lấy dữ liệu
-const name = params.get("name");
-const price = params.get("price");
-const oldPrice = params.get("oldPrice");
-const image = params.get("image");
+    if (!productId) {
+        document.body.innerHTML = "<h1>Không tìm thấy sản phẩm!</h1>";
+        return;
+    }
 
-// Gán vào giao diện
-if (name) document.getElementById("product-name").textContent = name;
-if (price) document.getElementById("product-price").textContent = price;
-if (oldPrice) document.getElementById("product-old-price").textContent = oldPrice;
-if (image) document.getElementById("product-image").src = image;
-document.getElementById("buyNowBtn").addEventListener("click", function () {
+    fetch("./assets/data/product.json")
+        .then(res => res.json())
+        .then(products => {
+            const product = products.find(p => p.id == productId);
 
-    const name  = document.querySelector(".product-title").textContent.trim();
-    const price = document.querySelector(".current-price").textContent.trim();
-    const image = document.querySelector(".main-image").src;
+            if (!product) {
+                document.body.innerHTML = "<h1>Sản phẩm không tồn tại!</h1>";
+                return;
+            }
 
-    const url = `contact.html?name=${encodeURIComponent(name)}&price=${encodeURIComponent(price)}&image=${encodeURIComponent(image)}`;
+            // === CẬP NHẬT TIÊU ĐỀ & GIÁ ===
+            document.getElementById("product-name").textContent = product.name;
+            document.getElementById("product-price").textContent = product.newPrice;
+            document.getElementById("product-old-price").textContent = product.oldPrice;
+            document.getElementById("product-image").src = product.image;
 
-    window.location.href = url;
+            // === THUMBNAIL ===
+            const thumbnailContainer = document.querySelector(".thumbnail-list");
+            thumbnailContainer.innerHTML = ""; // xóa cũ
+            product.gallery.forEach((imgSrc, index) => {
+                const div = document.createElement("div");
+                div.className = "thumbnail-item" + (index === 0 ? " active" : "");
+                div.innerHTML = `<img src="${imgSrc}" alt="Thumbnail">`;
+                div.onclick = () => {
+                    document.getElementById("product-image").src = imgSrc;
+                    document.querySelectorAll(".thumbnail-item").forEach(t => t.classList.remove("active"));
+                    div.classList.add("active");
+                };
+                thumbnailContainer.appendChild(div);
+            });
+
+            // === MÔ TẢ + TÍNH NĂNG – CHỈ CHÈN 1 LẦN DUY NHẤT ===
+            const descContainer = document.querySelector(".product-description");
+            descContainer.innerHTML = ""; // quan trọng: XÓA SẠCH TRƯỚC KHI GHI ĐÈ
+
+            descContainer.innerHTML = `
+                <div class="description-content">
+                    <h3>Mô tả sản phẩm</h3>
+                    <p>${product.description || "Đang cập nhật mô tả..."}</p>
+                    
+                    <h3 style="margin-top: 30px;">Tính năng nổi bật</h3>
+                    <ul style="line-height: 2; color: #444;">
+                        ${product.specifications && product.specifications.length > 0
+                            ? product.specifications.map(spec => `<li>${spec}</li>`).join("")
+                            : "<li>Đang cập nhật tính năng...</li>"}
+                    </ul>
+                </div>
+            `;
+
+            // === NÚT LIÊN HỆ MUA – TRUYỀN ĐÚNG ID ===
+            const buyNowBtn = document.getElementById("buyNowBtn");
+            if (buyNowBtn) {
+                buyNowBtn.addEventListener("click", function () {
+                    window.location.href = `contact.html?id=${productId}`;
+                });
+            }
+        })
+        .catch(err => {
+            console.error("Lỗi load sản phẩm:", err);
+            document.body.innerHTML = "<h1>Đã có lỗi xảy ra, vui lòng thử lại sau!</h1>";
+        });
 });

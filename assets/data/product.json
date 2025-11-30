@@ -1,0 +1,1106 @@
+[
+  {
+    "id": 1,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://file.hstatic.net/200000845283/file/thiet-bi-thong-minh-1_bdf174b50d4d4e4994ce312b0e5dd47e.jpg",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud. Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM ",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Máy Dò Phát Hiện Camera Baseus Heyo Series II",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdhbmy6o0o8cd2_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "225.000đ",
+    "newPrice": "195.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Robot lau sàn hút bụi tự làm sạch thông minh Dreame L10s Ultra Gen 2/ L10s Ultra Gen 3- BH 24 tháng",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhmpk0iyv2fc3f_tn.webp",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Máy đuổi chuột AMB A3, thiết bị đuổi động vật bằng công nghệ sóng siêu âm kết hợp cảm biến hồng ngoại",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m78udjn9lbn7c3_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "700.000đ",
+    "newPrice": "679.000đ",
+    "discount": "17%",
+    "description": "ROBOT ĐUỔI CHUỘT, ĐUỔI MÈO, ĐUỔI CHÓ, ĐUỔI CHIM THÔNG MINH, HIỆU QUẢ, MÃ SẢN PHẨM: AMB- A3 <br> Xua đuổi chuột, mèo, chó, chim và tất cả các loại động vật bằng sóng siêu âm biến tần (Máy AMB A3 - đuổi chuột cao cấp). Công nghệ đuổi động vật thông minh nhất hiện nay dựa trên cảm biến hồng ngoại chống trộm ! <br>---- HOÀN TIỀN NẾU KHÔNG CÓ HIỆU QUẢ CHỈ SAU 1 NGÀY SỬ DỤNG --- ",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://file.hstatic.net/200000845283/file/thiet-bi-thong-minh-1_bdf174b50d4d4e4994ce312b0e5dd47e.jpg",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud. Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM ",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Máy Dò Phát Hiện Camera Baseus Heyo Series II",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdhbmy6o0o8cd2_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "225.000đ",
+    "newPrice": "195.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Robot lau sàn hút bụi tự làm sạch thông minh Dreame L10s Ultra Gen 2/ L10s Ultra Gen 3- BH 24 tháng",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhmpk0iyv2fc3f_tn.webp",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Máy đuổi chuột AMB A3, thiết bị đuổi động vật bằng công nghệ sóng siêu âm kết hợp cảm biến hồng ngoại",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m78udjn9lbn7c3_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "700.000đ",
+    "newPrice": "679.000đ",
+    "discount": "17%",
+    "description": "ROBOT ĐUỔI CHUỘT, ĐUỔI MÈO, ĐUỔI CHÓ, ĐUỔI CHIM THÔNG MINH, HIỆU QUẢ, MÃ SẢN PHẨM: AMB- A3 <br> Xua đuổi chuột, mèo, chó, chim và tất cả các loại động vật bằng sóng siêu âm biến tần (Máy AMB A3 - đuổi chuột cao cấp). Công nghệ đuổi động vật thông minh nhất hiện nay dựa trên cảm biến hồng ngoại chống trộm ! <br>---- HOÀN TIỀN NẾU KHÔNG CÓ HIỆU QUẢ CHỈ SAU 1 NGÀY SỬ DỤNG --- ",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://file.hstatic.net/200000845283/file/thiet-bi-thong-minh-1_bdf174b50d4d4e4994ce312b0e5dd47e.jpg",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud. Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM ",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Máy Dò Phát Hiện Camera Baseus Heyo Series II",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdhbmy6o0o8cd2_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "225.000đ",
+    "newPrice": "195.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Robot lau sàn hút bụi tự làm sạch thông minh Dreame L10s Ultra Gen 2/ L10s Ultra Gen 3- BH 24 tháng",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhmpk0iyv2fc3f_tn.webp",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Máy đuổi chuột AMB A3, thiết bị đuổi động vật bằng công nghệ sóng siêu âm kết hợp cảm biến hồng ngoại",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m78udjn9lbn7c3_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "700.000đ",
+    "newPrice": "679.000đ",
+    "discount": "17%",
+    "description": "ROBOT ĐUỔI CHUỘT, ĐUỔI MÈO, ĐUỔI CHÓ, ĐUỔI CHIM THÔNG MINH, HIỆU QUẢ, MÃ SẢN PHẨM: AMB- A3 <br> Xua đuổi chuột, mèo, chó, chim và tất cả các loại động vật bằng sóng siêu âm biến tần (Máy AMB A3 - đuổi chuột cao cấp). Công nghệ đuổi động vật thông minh nhất hiện nay dựa trên cảm biến hồng ngoại chống trộm ! <br>---- HOÀN TIỀN NẾU KHÔNG CÓ HIỆU QUẢ CHỈ SAU 1 NGÀY SỬ DỤNG --- ",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://file.hstatic.net/200000845283/file/thiet-bi-thong-minh-1_bdf174b50d4d4e4994ce312b0e5dd47e.jpg",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud. Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM ",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Máy Dò Phát Hiện Camera Baseus Heyo Series II",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdhbmy6o0o8cd2_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "225.000đ",
+    "newPrice": "195.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Robot lau sàn hút bụi tự làm sạch thông minh Dreame L10s Ultra Gen 2/ L10s Ultra Gen 3- BH 24 tháng",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhmpk0iyv2fc3f_tn.webp",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Máy đuổi chuột AMB A3, thiết bị đuổi động vật bằng công nghệ sóng siêu âm kết hợp cảm biến hồng ngoại",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m78udjn9lbn7c3_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "700.000đ",
+    "newPrice": "679.000đ",
+    "discount": "17%",
+    "description": "ROBOT ĐUỔI CHUỘT, ĐUỔI MÈO, ĐUỔI CHÓ, ĐUỔI CHIM THÔNG MINH, HIỆU QUẢ, MÃ SẢN PHẨM: AMB- A3 <br> Xua đuổi chuột, mèo, chó, chim và tất cả các loại động vật bằng sóng siêu âm biến tần (Máy AMB A3 - đuổi chuột cao cấp). Công nghệ đuổi động vật thông minh nhất hiện nay dựa trên cảm biến hồng ngoại chống trộm ! <br>---- HOÀN TIỀN NẾU KHÔNG CÓ HIỆU QUẢ CHỈ SAU 1 NGÀY SỬ DỤNG --- ",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://file.hstatic.net/200000845283/file/thiet-bi-thong-minh-1_bdf174b50d4d4e4994ce312b0e5dd47e.jpg",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud. Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM ",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Máy Dò Phát Hiện Camera Baseus Heyo Series II",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdhbmy6o0o8cd2_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "225.000đ",
+    "newPrice": "195.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Robot lau sàn hút bụi tự làm sạch thông minh Dreame L10s Ultra Gen 2/ L10s Ultra Gen 3- BH 24 tháng",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhmpk0iyv2fc3f_tn.webp",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Máy đuổi chuột AMB A3, thiết bị đuổi động vật bằng công nghệ sóng siêu âm kết hợp cảm biến hồng ngoại",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m78udjn9lbn7c3_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "700.000đ",
+    "newPrice": "679.000đ",
+    "discount": "17%",
+    "description": "ROBOT ĐUỔI CHUỘT, ĐUỔI MÈO, ĐUỔI CHÓ, ĐUỔI CHIM THÔNG MINH, HIỆU QUẢ, MÃ SẢN PHẨM: AMB- A3 <br> Xua đuổi chuột, mèo, chó, chim và tất cả các loại động vật bằng sóng siêu âm biến tần (Máy AMB A3 - đuổi chuột cao cấp). Công nghệ đuổi động vật thông minh nhất hiện nay dựa trên cảm biến hồng ngoại chống trộm ! <br>---- HOÀN TIỀN NẾU KHÔNG CÓ HIỆU QUẢ CHỈ SAU 1 NGÀY SỬ DỤNG --- ",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://file.hstatic.net/200000845283/file/thiet-bi-thong-minh-1_bdf174b50d4d4e4994ce312b0e5dd47e.jpg",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud. Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM ",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Máy Dò Phát Hiện Camera Baseus Heyo Series II",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdhbmy6o0o8cd2_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "225.000đ",
+    "newPrice": "195.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Robot lau sàn hút bụi tự làm sạch thông minh Dreame L10s Ultra Gen 2/ L10s Ultra Gen 3- BH 24 tháng",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhmpk0iyv2fc3f_tn.webp",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Máy đuổi chuột AMB A3, thiết bị đuổi động vật bằng công nghệ sóng siêu âm kết hợp cảm biến hồng ngoại",
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m78udjn9lbn7c3_tn.webp",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "700.000đ",
+    "newPrice": "679.000đ",
+    "discount": "17%",
+    "description": "ROBOT ĐUỔI CHUỘT, ĐUỔI MÈO, ĐUỔI CHÓ, ĐUỔI CHIM THÔNG MINH, HIỆU QUẢ, MÃ SẢN PHẨM: AMB- A3 <br> Xua đuổi chuột, mèo, chó, chim và tất cả các loại động vật bằng sóng siêu âm biến tần (Máy AMB A3 - đuổi chuột cao cấp). Công nghệ đuổi động vật thông minh nhất hiện nay dựa trên cảm biến hồng ngoại chống trộm ! <br>---- HOÀN TIỀN NẾU KHÔNG CÓ HIỆU QUẢ CHỈ SAU 1 NGÀY SỬ DỤNG --- ",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+      "https://example.com/camera2.jpg",
+      "https://example.com/camera3.jpg",
+      "https://example.com/camera4.jpg"
+    ],
+    "oldPrice": "2.390.000đ",
+    "newPrice": "1.780.000đ",
+    "discount": "17%",
+    "description": "Camera an ninh thông minh Aqara G3 kết nối qua Hub M200, hỗ trợ quay 360°, nhận diện khuôn mặt AI, phát hiện chuyển động, tích hợp Apple HomeKit, Google Assistant và Alexa. Hình ảnh 2K siêu nét, hồng ngoại ban đêm rõ ràng, lưu trữ thẻ nhớ hoặc cloud.",
+    "specifications": [
+      "Độ phân giải: 2K (2304 x 1296)",
+      "Góc quay: 360° ngang, 110° dọc",
+      "Kết nối: Zigbee 3.0 + WiFi",
+      "AI: Nhận diện người, thú cưng, theo dõi chuyển động",
+      "Hồng ngoại ban đêm: Có, tầm xa 8m",
+      "Lưu trữ: Thẻ nhớ microSD hoặc cloud",
+      "Tương thích: Apple HomeKit, Google Home, Alexa"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Ổ Cắm Thông Minh Xiaomi ZNCZ05CM",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMcb8kE2O93P3gSAL8388xEGpQiXsZ_gUkCtuvcck5idCP_RhzlWMR1cqdi9BDUXce36xXNgbe8bTtvtGgUY9Js1Xnsiu1vViu3v6Tv9kMuNB2AOc8BXiG66YHHeJy4tG0IHD0MkZgd9QcOtR8XMPUKg1M5JdvscaWF3oUJNQCI4wwQyEcX182ebpOL7RiWBYTM6S9DRmh9ITzaMvm24nQ9MLRkOtPKDgpWlXP9tyhyuQTGMvDZ3XDtJoQ25KLzh9PX_Dxe4yWB60",
+    "gallery": [
+      "https://example.com/plug1.jpg",
+      "https://example.com/plug2.jpg"
+    ],
+    "oldPrice": "350.000đ",
+    "newPrice": "299.000đ",
+    "discount": "15%",
+    "description": "Ổ cắm thông minh Xiaomi hỗ trợ điều khiển từ xa qua app Mi Home, đo công suất tiêu thụ thực tế, hẹn giờ bật/tắt tự động. Thiết kế nhỏ gọn, chất liệu chống cháy, an toàn tuyệt đối.",
+    "specifications": [
+      "Công suất tối đa: 2500W",
+      "Điện áp: 220V ~ 50Hz",
+      "Kết nối: WiFi 2.4GHz",
+      "Đo điện năng tiêu thụ: Có",
+      "Hẹn giờ & lịch trình: Có",
+      "Tương thích: Mi Home, Google Home, Alexa",
+      "Chất liệu: Nhựa chống cháy PC"
+    ]
+  }
+]

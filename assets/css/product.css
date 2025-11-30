@@ -27,7 +27,7 @@
     width: 576px;
     height: 576px;
     border-radius: 20px;
-    object-fit: fill;
+    object-fit: cover;
 }
 .thumbnail-list{
     margin-top: 10px;

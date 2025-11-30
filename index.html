@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STC</title>
+    <title>STC Telecom</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/keyframes.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/search.css">
     <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="./assets/javascript/search.js" defer></script>
 </head>
 <body>
     <div class="main">
@@ -21,18 +24,25 @@
                     Ưu đãi tháng 11: Miễn phí lắp đặt tại nhà khi mua hàng tại kênh Website, tặng khóa thông minh trị giá 18.500.000 cho khách lắp đặt trọn gói
                     <a href=""><b>xem chi tiết</b></a>
                 </p>
-                <!-- <p class="header-endow-p">
-                    Ưu đãi tháng 11: Miễn phí lắp đặt tại nhà khi mua hàng tại kênh Website, tặng khóa thông minh trị giá 18.500.000 cho khách lắp đặt trọn gói
-                    <a href=""><b>xem chi tiết</b></a>
-                </p> -->
             </div>
             <div class="header-container grid">
                 <div class="header-container-logo">
                     <img src="./assets/img/logoSTC.jpg" alt="" width="96px" height="48px">
                 </div>
                 <div class="header-container-search">
-                    <input type="text" class="search-input" placeholder="Nhập tên sản phẩm bạn quan tâm...">
-                    <button class="ti-search search-button"></button>
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        id="searchInput" 
+                        placeholder="Tìm kiếm sản phẩm..." 
+                        autocomplete="off"
+                    >
+                    <button class="ti-search search-button" id="searchBtn"></button>
+
+                    <!-- Dropdown gợi ý hiện khi gõ -->
+                    <div class="search-suggest" id="searchSuggest">
+                        <ul id="suggestList"></ul>
+                    </div>
                 </div>
                 <div class="header-flash-sale">
                     <a href="">
@@ -57,17 +67,17 @@
             </div>
             <div class="header-list-category grid">
                 <div class="menu-category">
-                    <i class="ti-menu"> </i><span> Danh mục sản phẩm</span>
+                    <i class="ti-menu"> </i><span>Danh mục sản phẩm</span>
                 </div>
                 <div class="item-category">
-                    <ul>
-                        <a href=""><li>Nhà thông minh Aqara</li></a>
-                        <a href=""><li>Đèn thông minh Yeelight</li></a>
-                        <a href=""><li>Hunonic Smart Home</li></a>
-                        <a href=""><li>Apple HomeKit</li></a>
-                        <a href=""><li>Thương Hiệu</li></a>
-                        <a href=""><li>Hướng Dẫn Cài Đặt</li></a>
-                        <a href=""><li>Tin Công Nghệ</li></a>
+                    <ul class="category-menu">
+                        <a href="#" data-keyword=""><li>Tất cả sản phẩm</li></a>
+                        <a href="#" data-keyword="đèn"><li>Đèn thông minh</li></a>
+                        <a href="#" data-keyword="công tắc"><li>Công tắc thông minh</li></a>
+                        <a href="#" data-keyword="khóa"><li>Khóa cửa thông minh</li></a>
+                        <a href="#" data-keyword="rèm"><li>Rèm thông minh</li></a>
+                        <a href="#" data-keyword="camera"><li>Camera an ninh</li></a>
+                        <a href="#" data-keyword="cảm biến"><li>Cảm biến</li></a>
                     </ul>
                 </div>
             </div>
@@ -248,442 +258,13 @@
                     <div class="new-products-header">
                         <h1>SẢN PHẨM MỚI & ƯU ĐÃI ĐỘC QUYỀN </h1>
                         <div class="body-content-new-products-box">
-                            <ul class="new-products-list">
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="./assets/img/sanpham/camera.jpg" alt="">
-                                        <p class="name-products">Bộ CAMERA AN NINH DCMM VLC DE Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.780.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://cdn2.cellphones.com.vn/x/media/wysiwyg/Smarthome/Nha-thong-minh-1.png" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0aTycoQle07niHm_I6cPU_ELJbPIAnfqNFw&s" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">1.390.000đ</p>
-                                        <p class="add-color">990.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://genk.mediacdn.vn/2018/2/2/photo-1-1517559303536149305877.jpeg" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">390.000đ</p>
-                                        <p class="add-color">90.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
+                            <ul class="new-products-list" id="productsList">
+
                             </ul>
-                            <ul class="new-products-list add-display">
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                
-                            </ul>
-                            <ul class="new-products-list add-display">
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                
-                            </ul>
-                            <ul class="new-products-list add-display">
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                
-                            </ul>
-                            <ul class="new-products-list add-display">
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                <li class="new-products-item">
-                                    <div class="item-box">
-                                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY5JqX8DAtFzx4kHomO61VxJqGFuVFTocOp_zazBtosJulPfpFNtGxnsKo-lhNXJvlGLQLgISkZ-L-Syv9Aw5i4Rgjg0rIcnq2C0sxB2RP2wO5nHE2acwbr0SxK1BpDv7lUUAH9ePj54HZsc5KZUcmtz5-hmz4Kgdg4doYFRr1FtR_0qymEAx8pAae5xwmM7QRpGjlRzQbFZe29OfkMFkv0iZtasf7uLmTXawLtY9g5VrCz7Ny-g9GTUdsgIHT3tMse9MOia9KCPA" alt="">
-                                        <p class="name-products">Bộ điều khiển tủng tâm Aqara Hub M200-HM-G03D</p>
-                                        <p class="text-decoretion">2.390.000đ</p>
-                                        <p class="add-color">1.790.000đ</p>
-                                    </div>
-                                    <div class="logo-favourite">
-                                        <p>⚡Giảm 17%</p>
-                                    </div>
-                                    <div class="products-item-text-contact">
-                                        <p>Liên hệ</p>
-                                    </div>
-                                </li>
-                                
+                           
                             </ul>
                             <div class="new-products-box-see-all">
-                                <p class="js-gettext">Xem Thêm</p>
+                                <p class="js-gettext btn-load-more">Xem Thêm</p>
                             </div>
                         </div>
                     </div>
@@ -733,20 +314,14 @@
                         <li><strong>Email:</strong> nhanem67@gmail.com</li>
                         <div class="footer-contain-item-contacts-icon">
                             <div class="contacts-icon-item">
-                                <i class="material-icons">facebook</i>
-                            </div>
-                            <div class="contacts-icon-item">
-                                <i class="material-icons">facebook</i>
-                            </div>
-                            <div class="contacts-icon-item">
-                                
+                                <a href=""><i class="material-icons">facebook</i></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="footer-bottom">
                     <div>
-                        <p>© 2024 STC Telecom. Chuyên cung cấp, thi công và tư vấn giải pháp thiết bị nhà thông minh từ các thương hiệu hàng đầu.</p>
+                        <p>STC Telecom. Chuyên cung cấp, thi công và tư vấn giải pháp thiết bị nhà thông minh từ các thương hiệu hàng đầu.</p>
                     </div>
                     <div class="footer-bottom-content">
                         <p>Công ty TNHH STC Telecom</p>
